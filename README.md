@@ -1,4 +1,3 @@
-# Rondesignlab.github.io
 <!DOCTYPE HTML>
 <html>
 <head>
