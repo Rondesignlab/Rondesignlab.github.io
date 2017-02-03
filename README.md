@@ -4,13 +4,10 @@
     <title>ZDay Documentation</title>
 ![2017-02-02 17 54 12](https://cloud.githubusercontent.com/assets/24479453/22586603/51bd49c4-ea06-11e6-8f9f-a7548485d4e6.png)
 </head>
+
 <body>
+
 <div class="container">
-    <div class="header">
-        <a href="#" class="logo">
-            <img src="assets/logo.png" alt="" />
-        </a>
-    </div>
     <div class="wrapper">
         <h1>Zday “Coming soon” page</h1>
         <div class="block">
