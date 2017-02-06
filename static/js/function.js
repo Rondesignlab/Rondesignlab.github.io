@@ -555,7 +555,7 @@ var zdayJS = {
                     that.renderVideo();
                 }
 
-                var videoInfoUrl = 'http://gdata.youtube.com/feeds/api/videos/' + that.videoId + '?v=2&alt=jsonc&callback=getVideoInfo';
+                var videoInfoUrl = 'http://gdata.youtube.com/feeds/api/videos/' + that.videoId + '?v=3&alt=jsonc&callback=getVideoInfo';
 
                 $('#videoInfo').remove();
                 var script = $('<script src="' + videoInfoUrl + '" id="videoInfo"></script>');
@@ -564,13 +564,14 @@ var zdayJS = {
         },
         setSizes:function(){
             var that = this;
-            var aspectRatio = that.videoInfo.data.aspectRatio;
-            if(aspectRatio == 'widescreen') {
+            // var aspectRatio = that.videoInfo.data.aspectRatio;
+            // if(aspectRatio == 'widescreen') {
                 that.aspectRatio = 16/9;
-            } else {
-                that.aspectRatio = 4/3;
-            }
-            that.calculateSizes();
+            // } else {
+            //     that.aspectRatio = 4/3;
+            // }
+            // that.calculateSizes();
+            console.log(that.calculateSizes());
         },
         calculateSizes:function(){
             var that = this;
